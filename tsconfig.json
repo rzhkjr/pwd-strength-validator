@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "declaration": true,       
+      "declarationMap": true,    
+      "outDir": "./dist",        
+      "strict": true,            
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "target": "esnext",
+      "module": "esnext",
+      "lib": ["dom", "esnext"],
+    },
+    "include": ["src/**/*"],
+    "exclude": [
+    "src/*.test.ts",
+    "src/*.test.tsx",
+    "src/*.test-d.ts",
+    "src/*.test-d.tsx",
+    "src/__tests__"
+  ]
+  }

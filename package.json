@@ -1,0 +1,72 @@
+{
+  "name": "pwd-strength-validator",
+  "version": "1.0.0",
+  "description": "A utility for evaluating password strength using entropy calculations and customizable rules. It’s easy to configure and doesn’t rely on any specific frameworks, making it highly adaptable for various applications.",
+  "type": "module",
+  "main": "dist/pwd-strength-validator.cjs.js",
+  "module": "dist/pwd-strength-validator.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "vitest",
+    "build": "tsc -b && vite build",
+    "prepublishOnly": "npm run build",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rzhkjr/pwd-strength-validator.git"
+  },
+  "keywords": [
+    "npm",
+    "password",
+    "strength",
+    "checker",
+    "check password strength",
+    "password strength checker",
+    "strength checker",
+    "password checker",
+    "password checker strength",
+    "strength password checker",
+    "check-password-strength",
+    "password-strength-checker",
+    "strength-checker",
+    "password-checker",
+    "password-checker-strength",
+    "strength-password-checker",
+    "pass-strength",
+    "password security",
+    "password validation",
+    "password analysis",
+    "password strength analysis",
+    "password entropy",
+    "password score",
+    "secure password",
+    "password metrics",
+    "password evaluation",
+    "entropy"
+  ],
+  "author": "rzhkjr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rzhkjr/pwd-strength-validator/issues"
+  },
+  "homepage": "https://github.com/rzhkjr/pwd-strength-validator#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^10.1.6",
+    "@semantic-release/npm": "^12.0.1",
+    "eslint": "^9.9.0",
+    "globals": "^15.9.0",
+    "semantic-release": "^24.1.0",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^8.0.1",
+    "vite": "^5.4.1",
+    "vitest": "^2.0.5",
+    "vite-plugin-dts": "^4.0.3"
+  }
+}
